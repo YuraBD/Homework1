@@ -1,0 +1,50 @@
+[2023-11-30T02:43:10.778+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lviv_weather.inject_data_Lviv manual__2023-11-30T00:43:00.011827+00:00 [queued]>
+[2023-11-30T02:43:10.793+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lviv_weather.inject_data_Lviv manual__2023-11-30T00:43:00.011827+00:00 [queued]>
+[2023-11-30T02:43:10.793+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T02:43:10.811+0200] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): inject_data_Lviv> on 2023-11-30 00:43:00.011827+00:00
+[2023-11-30T02:43:10.814+0200] {standard_task_runner.py:57} INFO - Started process 162989 to run task
+[2023-11-30T02:43:10.818+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'lviv_weather', 'inject_data_Lviv', 'manual__2023-11-30T00:43:00.011827+00:00', '--job-id', '137', '--raw', '--subdir', 'DAGS_FOLDER/lviv_weather.py', '--cfg-path', '/tmp/tmp_y5lw93v']
+[2023-11-30T02:43:10.821+0200] {standard_task_runner.py:85} INFO - Job 137: Subtask inject_data_Lviv
+[2023-11-30T02:43:10.913+0200] {task_command.py:416} INFO - Running <TaskInstance: lviv_weather.inject_data_Lviv manual__2023-11-30T00:43:00.011827+00:00 [running]> on host yurabd.
+[2023-11-30T02:43:11.297+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='lviv_weather' AIRFLOW_CTX_TASK_ID='inject_data_Lviv' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T00:43:00.011827+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-30T00:43:00.011827+00:00'
+[2023-11-30T02:43:11.298+0200] {sql.py:274} INFO - Executing: 
+            INSERT INTO measures (city, timestamp, date, temp, humidity, clouds, wind_speed) VALUES
+            ({ti.xcom_pull(task_ids='process_data_' + Lviv)[0]},
+            to_timestamp({ti.xcom_pull(task_ids='process_data')[1]}),
+            '{ti.xcom_pull(task_ids='process_data_' + parameters.city)[2]}',
+            {ti.xcom_pull(task_ids='process_data_' + parameters.city)[3]},
+            {ti.xcom_pull(task_ids='process_data_' + parameters.city)[4]},
+            {ti.xcom_pull(task_ids='process_data_' + parameters.city)[5]},
+            {ti.xcom_pull(task_ids='process_data_' + parameters.city)[6]});
+            
+[2023-11-30T02:43:11.317+0200] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-30T02:43:11.382+0200] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-30T02:43:11.393+0200] {sql.py:418} INFO - Running statement: 
+            INSERT INTO measures (city, timestamp, date, temp, humidity, clouds, wind_speed) VALUES
+            ({ti.xcom_pull(task_ids='process_data_' + Lviv)[0]},
+            to_timestamp({ti.xcom_pull(task_ids='process_data')[1]}),
+            '{ti.xcom_pull(task_ids='process_data_' + parameters.city)[2]}',
+            {ti.xcom_pull(task_ids='process_data_' + parameters.city)[3]},
+            {ti.xcom_pull(task_ids='process_data_' + parameters.city)[4]},
+            {ti.xcom_pull(task_ids='process_data_' + parameters.city)[5]},
+            {ti.xcom_pull(task_ids='process_data_' + parameters.city)[6]});
+            , parameters: {'city': 'Lviv'}
+[2023-11-30T02:43:11.394+0200] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 421, in _run_command
+    cur.execute(sql_statement, parameters)
+psycopg2.errors.SyntaxError: syntax error at or near "{"
+LINE 3:             ({ti.xcom_pull(task_ids='process_data_' + Lviv)[...
+                     ^
+
+[2023-11-30T02:43:11.423+0200] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=lviv_weather, task_id=inject_data_Lviv, execution_date=20231130T004300, start_date=20231130T004310, end_date=20231130T004311
+[2023-11-30T02:43:11.435+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 137 for task inject_data_Lviv (syntax error at or near "{"
+LINE 3:             ({ti.xcom_pull(task_ids='process_data_' + Lviv)[...
+                     ^
+; 162989)
+[2023-11-30T02:43:11.473+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-30T02:43:11.497+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,35 @@
+[2023-11-28T03:09:29.499+0200] {processor.py:157} INFO - Started process (PID=27846) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:09:29.499+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-11-28T03:09:29.500+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:29.500+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:09:29.519+0200] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:09:29.590+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:29.589+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:09:29.601+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:29.601+0200] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2023-11-27T01:09:29.601004+00:00, run_after=2023-11-28T01:09:29.601004+00:00
+[2023-11-28T03:09:29.623+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.126 seconds
+[2023-11-28T03:10:19.126+0200] {processor.py:157} INFO - Started process (PID=27895) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:10:19.191+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-11-28T03:10:19.191+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:19.191+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:10:19.212+0200] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:10:19.228+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:19.228+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:19.240+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:19.240+0200] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2023-11-27T01:10:19.240158+00:00, run_after=2023-11-28T01:10:19.240158+00:00
+[2023-11-28T03:10:19.259+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.136 seconds
+[2023-11-28T03:10:58.070+0200] {processor.py:157} INFO - Started process (PID=27933) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:10:58.071+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-11-28T03:10:58.071+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:58.071+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:10:58.093+0200] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:10:58.109+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:58.109+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:58.121+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:58.121+0200] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2023-11-27T01:10:58.121068+00:00, run_after=2023-11-28T01:10:58.121068+00:00
+[2023-11-28T03:10:58.140+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.072 seconds
+[2023-11-28T03:11:36.966+0200] {processor.py:157} INFO - Started process (PID=27971) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:11:36.971+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-11-28T03:11:36.972+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:36.971+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:11:36.997+0200] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:11:37.014+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:37.013+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:37.027+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:37.027+0200] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2023-11-27T01:11:37.027315+00:00, run_after=2023-11-28T01:11:37.027315+00:00
+[2023-11-28T03:11:37.048+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.085 seconds
+[2023-11-28T03:12:24.070+0200] {processor.py:157} INFO - Started process (PID=28018) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:12:24.074+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-11-28T03:12:24.075+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:24.074+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:12:24.100+0200] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-28T03:12:24.116+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:24.116+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:12:24.128+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:24.127+0200] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2023-11-27T01:12:24.127732+00:00, run_after=2023-11-28T01:12:24.127732+00:00
+[2023-11-28T03:12:24.151+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds

@@ -1,0 +1,35 @@
+[2023-11-28T03:09:31.984+0200] {processor.py:157} INFO - Started process (PID=27848) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:09:31.984+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-11-28T03:09:31.985+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:31.985+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:09:32.016+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:09:32.111+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:32.111+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:09:32.123+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:32.123+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-11-28T03:09:32.140+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.159 seconds
+[2023-11-28T03:10:20.561+0200] {processor.py:157} INFO - Started process (PID=27897) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:10:20.562+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-11-28T03:10:20.562+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:20.562+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:10:20.583+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:10:20.600+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:20.599+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:20.611+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:20.611+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-11-28T03:10:20.630+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.072 seconds
+[2023-11-28T03:11:10.450+0200] {processor.py:157} INFO - Started process (PID=27944) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:11:10.451+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-11-28T03:11:10.452+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:10.452+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:11:10.476+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:11:10.492+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:10.492+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:10.506+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:10.506+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-11-28T03:11:10.525+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.078 seconds
+[2023-11-28T03:11:48.641+0200] {processor.py:157} INFO - Started process (PID=27982) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:11:48.645+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-11-28T03:11:48.646+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:48.645+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:11:48.666+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:11:48.681+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:48.681+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:48.695+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:48.694+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-11-28T03:11:48.716+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.078 seconds
+[2023-11-28T03:12:25.776+0200] {processor.py:157} INFO - Started process (PID=28020) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:12:25.778+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-11-28T03:12:25.778+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:25.778+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:12:25.809+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-28T03:12:25.828+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:25.828+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:12:25.843+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:25.843+0200] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-11-28T03:12:25.866+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.092 seconds

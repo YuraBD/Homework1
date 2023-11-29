@@ -1,0 +1,21 @@
+[2023-11-28T03:09:51.621+0200] {processor.py:157} INFO - Started process (PID=27867) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-28T03:09:51.622+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2023-11-28T03:09:51.623+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:51.622+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-28T03:09:51.652+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-28T03:09:51.679+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:51.679+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:09:51.777+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:51.777+0200] {dag.py:3722} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-11-27T00:00:00+00:00, run_after=2023-11-28T00:00:00+00:00
+[2023-11-28T03:09:51.796+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.177 seconds
+[2023-11-28T03:10:40.677+0200] {processor.py:157} INFO - Started process (PID=27916) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-28T03:10:40.681+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2023-11-28T03:10:40.683+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:40.682+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-28T03:10:40.711+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-28T03:10:40.727+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:40.727+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:40.741+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:40.740+0200] {dag.py:3722} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-11-27T00:00:00+00:00, run_after=2023-11-28T00:00:00+00:00
+[2023-11-28T03:10:40.759+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.084 seconds
+[2023-11-28T03:11:38.123+0200] {processor.py:157} INFO - Started process (PID=27972) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-28T03:11:38.125+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2023-11-28T03:11:38.126+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:38.126+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-28T03:11:38.156+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-28T03:11:38.173+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:38.173+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:38.187+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:38.187+0200] {dag.py:3722} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-11-27T00:00:00+00:00, run_after=2023-11-28T00:00:00+00:00
+[2023-11-28T03:11:38.209+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.089 seconds

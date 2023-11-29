@@ -1,0 +1,21 @@
+[2023-11-28T03:10:02.240+0200] {processor.py:157} INFO - Started process (PID=27878) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-28T03:10:02.240+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-11-28T03:10:02.241+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:02.241+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-28T03:10:02.272+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-28T03:10:03.369+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:03.369+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:03.375+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:03.374+0200] {dag.py:3722} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-11-28T03:10:03.396+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 1.159 seconds
+[2023-11-28T03:10:59.205+0200] {processor.py:157} INFO - Started process (PID=27934) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-28T03:10:59.209+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-11-28T03:10:59.209+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:59.209+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-28T03:10:59.240+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-28T03:11:00.325+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:00.325+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:00.332+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:00.332+0200] {dag.py:3722} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-11-28T03:11:00.359+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 1.156 seconds
+[2023-11-28T03:11:53.532+0200] {processor.py:157} INFO - Started process (PID=27988) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-28T03:11:53.536+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-11-28T03:11:53.537+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:53.537+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-28T03:11:53.579+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-28T03:11:54.728+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:54.728+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:54.735+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:54.735+0200] {dag.py:3722} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-11-28T03:11:54.763+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 1.233 seconds

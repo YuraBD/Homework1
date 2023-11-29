@@ -1,0 +1,35 @@
+[2023-12-01T20:29:23.341+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lviv_weather.inject_data_Lviv manual__2023-12-01T18:29:09.879024+00:00 [queued]>
+[2023-12-01T20:29:23.361+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lviv_weather.inject_data_Lviv manual__2023-12-01T18:29:09.879024+00:00 [queued]>
+[2023-12-01T20:29:23.361+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-01T20:29:23.379+0200] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): inject_data_Lviv> on 2023-12-01 18:29:09.879024+00:00
+[2023-12-01T20:29:23.384+0200] {standard_task_runner.py:57} INFO - Started process 2101 to run task
+[2023-12-01T20:29:23.389+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'lviv_weather', 'inject_data_Lviv', 'manual__2023-12-01T18:29:09.879024+00:00', '--job-id', '269', '--raw', '--subdir', 'DAGS_FOLDER/lviv_weather.py', '--cfg-path', '/tmp/tmp4lns2o64']
+[2023-12-01T20:29:23.391+0200] {standard_task_runner.py:85} INFO - Job 269: Subtask inject_data_Lviv
+[2023-12-01T20:29:23.478+0200] {task_command.py:416} INFO - Running <TaskInstance: lviv_weather.inject_data_Lviv manual__2023-12-01T18:29:09.879024+00:00 [running]> on host yurabd.
+[2023-12-01T20:29:23.896+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='lviv_weather' AIRFLOW_CTX_TASK_ID='inject_data_Lviv' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T18:29:09.879024+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-01T18:29:09.879024+00:00'
+[2023-12-01T20:29:23.896+0200] {sql.py:274} INFO - Executing: 
+            INSERT INTO measures (city, timestamp, date, temp, humidity, clouds, wind_speed) VALUES
+            ('Lviv',
+            to_timestamp(1701455349),
+            '2023-12-01 18:29:09',
+            -0.64,
+            99,
+            100,
+            1.91);
+            
+[2023-12-01T20:29:23.918+0200] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-01T20:29:23.965+0200] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-01T20:29:23.973+0200] {sql.py:418} INFO - Running statement: 
+            INSERT INTO measures (city, timestamp, date, temp, humidity, clouds, wind_speed) VALUES
+            ('Lviv',
+            to_timestamp(1701455349),
+            '2023-12-01 18:29:09',
+            -0.64,
+            99,
+            100,
+            1.91);
+            , parameters: None
+[2023-12-01T20:29:23.974+0200] {sql.py:427} INFO - Rows affected: 1
+[2023-12-01T20:29:23.988+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=lviv_weather, task_id=inject_data_Lviv, execution_date=20231201T182909, start_date=20231201T182923, end_date=20231201T182923
+[2023-12-01T20:29:24.044+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-01T20:29:24.063+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,28 @@
+[2023-11-28T03:09:46.178+0200] {processor.py:157} INFO - Started process (PID=27862) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-11-28T03:09:46.179+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-11-28T03:09:46.180+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:46.179+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-11-28T03:09:46.199+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-11-28T03:09:46.223+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:46.222+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:09:46.230+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:46.230+0200] {dag.py:3722} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-11-28T03:09:46.253+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.077 seconds
+[2023-11-28T03:10:35.129+0200] {processor.py:157} INFO - Started process (PID=27911) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-11-28T03:10:35.133+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-11-28T03:10:35.134+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:35.134+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-11-28T03:10:35.154+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-11-28T03:10:35.170+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:35.170+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:35.188+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:35.188+0200] {dag.py:3722} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-11-28T03:10:35.209+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.082 seconds
+[2023-11-28T03:11:24.078+0200] {processor.py:157} INFO - Started process (PID=27958) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-11-28T03:11:24.082+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-11-28T03:11:24.083+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:24.083+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-11-28T03:11:24.107+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-11-28T03:11:24.123+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:24.123+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:24.132+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:24.132+0200] {dag.py:3722} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-11-28T03:11:24.156+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.081 seconds
+[2023-11-28T03:12:17.678+0200] {processor.py:157} INFO - Started process (PID=28011) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-11-28T03:12:17.679+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2023-11-28T03:12:17.680+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:17.679+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-11-28T03:12:17.703+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2023-11-28T03:12:17.720+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:17.720+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:12:17.729+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:17.728+0200] {dag.py:3722} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2023-11-28T03:12:17.750+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.075 seconds

@@ -1,0 +1,30 @@
+[2023-11-28T03:09:23.107+0200] {processor.py:157} INFO - Started process (PID=27840) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:09:23.108+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-11-28T03:09:23.108+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:23.108+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:09:23.131+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:23.130+0200] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-11-28T03:09:23.131+0200] {processor.py:841} WARNING - No viable dags retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:09:23.137+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.033 seconds
+[2023-11-28T03:10:15.014+0200] {processor.py:157} INFO - Started process (PID=27889) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:10:15.015+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-11-28T03:10:15.016+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:15.016+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:10:15.039+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:15.038+0200] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-11-28T03:10:15.039+0200] {processor.py:841} WARNING - No viable dags retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:10:15.046+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.034 seconds
+[2023-11-28T03:10:51.768+0200] {processor.py:157} INFO - Started process (PID=27927) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:10:51.769+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-11-28T03:10:51.770+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:51.770+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:10:51.791+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:51.791+0200] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-11-28T03:10:51.792+0200] {processor.py:841} WARNING - No viable dags retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:10:51.799+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.034 seconds
+[2023-11-28T03:11:30.733+0200] {processor.py:157} INFO - Started process (PID=27965) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:11:30.739+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-11-28T03:11:30.740+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:30.739+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:11:30.761+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:30.761+0200] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-11-28T03:11:30.762+0200] {processor.py:841} WARNING - No viable dags retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:11:30.771+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.040 seconds
+[2023-11-28T03:12:05.051+0200] {processor.py:157} INFO - Started process (PID=27999) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:12:05.051+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-11-28T03:12:05.052+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:05.052+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:12:05.076+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:05.076+0200] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
+[2023-11-28T03:12:05.077+0200] {processor.py:841} WARNING - No viable dags retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2023-11-28T03:12:05.086+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds

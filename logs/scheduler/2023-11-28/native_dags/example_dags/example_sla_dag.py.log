@@ -1,0 +1,28 @@
+[2023-11-28T03:09:38.698+0200] {processor.py:157} INFO - Started process (PID=27855) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-28T03:09:38.698+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-11-28T03:09:38.699+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:38.699+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-28T03:09:38.726+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-28T03:09:38.751+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:38.751+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:09:38.766+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:38.766+0200] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2023-11-28T01:06:00+00:00, run_after=2023-11-28T01:08:00+00:00
+[2023-11-28T03:09:38.788+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.092 seconds
+[2023-11-28T03:10:28.119+0200] {processor.py:157} INFO - Started process (PID=27904) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-28T03:10:28.123+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-11-28T03:10:28.123+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:28.123+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-28T03:10:28.146+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-28T03:10:28.161+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:28.161+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:28.175+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:28.175+0200] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2023-11-28T01:08:00+00:00, run_after=2023-11-28T01:10:00+00:00
+[2023-11-28T03:10:28.194+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.078 seconds
+[2023-11-28T03:11:17.769+0200] {processor.py:157} INFO - Started process (PID=27951) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-28T03:11:17.772+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-11-28T03:11:17.773+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:17.773+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-28T03:11:17.800+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-28T03:11:17.816+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:17.815+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:17.831+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:17.831+0200] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2023-11-28T01:08:00+00:00, run_after=2023-11-28T01:10:00+00:00
+[2023-11-28T03:11:17.850+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.084 seconds
+[2023-11-28T03:12:10.209+0200] {processor.py:157} INFO - Started process (PID=28004) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-28T03:12:10.210+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-11-28T03:12:10.210+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:10.210+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-28T03:12:10.238+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-28T03:12:10.255+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:10.255+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:12:10.272+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:10.272+0200] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2023-11-28T01:10:00+00:00, run_after=2023-11-28T01:12:00+00:00
+[2023-11-28T03:12:10.293+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.087 seconds

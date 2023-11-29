@@ -1,0 +1,28 @@
+[2023-11-28T03:09:48.998+0200] {processor.py:157} INFO - Started process (PID=27865) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-28T03:09:48.999+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-11-28T03:09:48.999+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:48.999+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-28T03:09:49.048+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-28T03:09:49.101+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:49.101+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:09:49.193+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:49.193+0200] {dag.py:3722} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-11-28T03:09:49.215+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.220 seconds
+[2023-11-28T03:10:38.299+0200] {processor.py:157} INFO - Started process (PID=27914) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-28T03:10:38.303+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-11-28T03:10:38.304+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:38.303+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-28T03:10:38.355+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-28T03:10:38.402+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:38.401+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:38.410+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:38.409+0200] {dag.py:3722} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-11-28T03:10:38.428+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.132 seconds
+[2023-11-28T03:11:27.546+0200] {processor.py:157} INFO - Started process (PID=27961) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-28T03:11:27.550+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-11-28T03:11:27.551+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:27.551+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-28T03:11:27.606+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-28T03:11:27.652+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:27.652+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:27.660+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:27.659+0200] {dag.py:3722} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-11-28T03:11:27.682+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.138 seconds
+[2023-11-28T03:12:20.013+0200] {processor.py:157} INFO - Started process (PID=28014) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-28T03:12:20.070+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-11-28T03:12:20.071+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:20.071+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-28T03:12:20.152+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-28T03:12:20.205+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:20.205+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:12:20.215+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:20.215+0200] {dag.py:3722} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-11-28T03:12:20.240+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.232 seconds

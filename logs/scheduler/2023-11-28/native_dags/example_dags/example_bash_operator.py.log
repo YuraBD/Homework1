@@ -1,0 +1,21 @@
+[2023-11-28T03:10:11.415+0200] {processor.py:157} INFO - Started process (PID=27886) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-11-28T03:10:11.416+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-11-28T03:10:11.416+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:11.416+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-11-28T03:10:11.444+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-11-28T03:10:11.465+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:11.464+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:11.478+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:11.477+0200] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2023-11-27T00:00:00+00:00, run_after=2023-11-28T00:00:00+00:00
+[2023-11-28T03:10:11.550+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.137 seconds
+[2023-11-28T03:11:08.606+0200] {processor.py:157} INFO - Started process (PID=27942) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-11-28T03:11:08.610+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-11-28T03:11:08.611+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:08.611+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-11-28T03:11:08.643+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-11-28T03:11:08.664+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:08.664+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:08.678+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:08.678+0200] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2023-11-27T00:00:00+00:00, run_after=2023-11-28T00:00:00+00:00
+[2023-11-28T03:11:08.700+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.096 seconds
+[2023-11-28T03:12:02.546+0200] {processor.py:157} INFO - Started process (PID=27996) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-11-28T03:12:02.548+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-11-28T03:12:02.549+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:02.549+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-11-28T03:12:02.592+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-11-28T03:12:02.615+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:02.614+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:12:02.628+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:02.628+0200] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2023-11-27T00:00:00+00:00, run_after=2023-11-28T00:00:00+00:00
+[2023-11-28T03:12:02.650+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.109 seconds

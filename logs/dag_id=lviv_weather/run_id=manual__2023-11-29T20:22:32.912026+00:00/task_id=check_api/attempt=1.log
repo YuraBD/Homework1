@@ -1,0 +1,43 @@
+[2023-11-29T22:23:12.763+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lviv_weather.check_api manual__2023-11-29T20:22:32.912026+00:00 [queued]>
+[2023-11-29T22:23:12.767+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lviv_weather.check_api manual__2023-11-29T20:22:32.912026+00:00 [queued]>
+[2023-11-29T22:23:12.768+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-29T22:23:12.782+0200] {taskinstance.py:1382} INFO - Executing <Task(HttpSensor): check_api> on 2023-11-29 20:22:32.912026+00:00
+[2023-11-29T22:23:12.784+0200] {standard_task_runner.py:57} INFO - Started process 104212 to run task
+[2023-11-29T22:23:12.786+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'lviv_weather', 'check_api', 'manual__2023-11-29T20:22:32.912026+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/lviv_weather.py', '--cfg-path', '/tmp/tmptmzmxc9_']
+[2023-11-29T22:23:12.788+0200] {standard_task_runner.py:85} INFO - Job 40: Subtask check_api
+[2023-11-29T22:23:12.814+0200] {task_command.py:416} INFO - Running <TaskInstance: lviv_weather.check_api manual__2023-11-29T20:22:32.912026+00:00 [running]> on host yurabd.
+[2023-11-29T22:23:12.870+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='lviv_weather' AIRFLOW_CTX_TASK_ID='check_api' AIRFLOW_CTX_EXECUTION_DATE='2023-11-29T20:22:32.912026+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-29T20:22:32.912026+00:00'
+[2023-11-29T22:23:12.871+0200] {http.py:130} INFO - Poking: data/3.0/onecall
+[2023-11-29T22:23:12.875+0200] {base.py:73} INFO - Using connection ID 'weather_conn' for task execution.
+[2023-11-29T22:23:13.118+0200] {http.py:178} ERROR - HTTP error: Bad Request
+[2023-11-29T22:23:13.119+0200] {http.py:179} ERROR - {"cod":"400","message":"Nothing to geocode"}
+[2023-11-29T22:23:13.121+0200] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 176, in check_response
+    response.raise_for_status()
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.openweathermap.org/data/3.0/onecall?appid=***
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/sensors/base.py", line 257, in execute
+    raise e
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/sensors/base.py", line 239, in execute
+    poke_return = self.poke(context)
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/http/sensors/http.py", line 148, in poke
+    raise exc
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/http/sensors/http.py", line 132, in poke
+    response = hook.run(
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 166, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 217, in run_and_check
+    self.check_response(response)
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 180, in check_response
+    raise AirflowException(str(response.status_code) + ":" + response.reason)
+airflow.exceptions.AirflowException: 400:Bad Request
+[2023-11-29T22:23:13.150+0200] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=lviv_weather, task_id=check_api, execution_date=20231129T202232, start_date=20231129T202312, end_date=20231129T202313
+[2023-11-29T22:23:13.164+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 40 for task check_api (400:Bad Request; 104212)
+[2023-11-29T22:23:13.200+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-29T22:23:13.215+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

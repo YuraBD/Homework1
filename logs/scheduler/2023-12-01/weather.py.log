@@ -1,0 +1,284 @@
+[2023-12-01T21:07:54.168+0200] {processor.py:157} INFO - Started process (PID=4851) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:07:54.169+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:07:54.169+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:07:54.169+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:07:54.282+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:07:57.119+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:07:57.119+0200] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-01T21:07:57.129+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:07:57.129+0200] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-01T21:07:57.136+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:07:57.136+0200] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-01T21:07:57.137+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:07:57.137+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:07:57.146+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:07:57.146+0200] {dag.py:2963} INFO - Creating ORM DAG for weather
+[2023-12-01T21:07:57.155+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:07:57.155+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:07:57.172+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 3.007 seconds
+[2023-12-01T21:08:27.299+0200] {processor.py:157} INFO - Started process (PID=4964) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:08:27.300+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:08:27.300+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:08:27.300+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:08:27.400+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:08:27.460+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:08:27.460+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:08:27.478+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:08:27.477+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:08:27.494+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.198 seconds
+[2023-12-01T21:08:57.600+0200] {processor.py:157} INFO - Started process (PID=5068) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:08:57.605+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:08:57.606+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:08:57.606+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:08:57.719+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:08:57.783+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:08:57.783+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:08:57.799+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:08:57.799+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:08:57.820+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.223 seconds
+[2023-12-01T21:09:27.927+0200] {processor.py:157} INFO - Started process (PID=5166) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:09:27.928+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:09:27.928+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:09:27.928+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:09:28.048+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:09:28.111+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:09:28.111+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:09:28.128+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:09:28.128+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:09:28.145+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.221 seconds
+[2023-12-01T21:09:58.253+0200] {processor.py:157} INFO - Started process (PID=5270) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:09:58.254+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:09:58.254+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:09:58.254+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:09:58.362+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:09:58.422+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:09:58.422+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:09:58.439+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:09:58.439+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:09:58.455+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.205 seconds
+[2023-12-01T21:10:28.564+0200] {processor.py:157} INFO - Started process (PID=5369) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:10:28.564+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:10:28.565+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:10:28.565+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:10:28.673+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:10:28.734+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:10:28.734+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:10:28.751+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:10:28.751+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:10:28.768+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.207 seconds
+[2023-12-01T21:10:58.879+0200] {processor.py:157} INFO - Started process (PID=5473) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:10:58.880+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:10:58.880+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:10:58.880+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:10:59.000+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:10:59.067+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:10:59.067+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:10:59.085+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:10:59.085+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:10:59.102+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.225 seconds
+[2023-12-01T21:11:29.211+0200] {processor.py:157} INFO - Started process (PID=5571) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:11:29.212+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:11:29.213+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:11:29.213+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:11:29.328+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:11:29.391+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:11:29.391+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:11:29.408+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:11:29.408+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:11:29.426+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.217 seconds
+[2023-12-01T21:11:59.541+0200] {processor.py:157} INFO - Started process (PID=5672) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:11:59.542+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:11:59.543+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:11:59.543+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:11:59.656+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:11:59.747+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:11:59.747+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:11:59.768+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:11:59.768+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:11:59.787+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.250 seconds
+[2023-12-01T21:12:29.906+0200] {processor.py:157} INFO - Started process (PID=5764) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:12:29.908+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:12:29.910+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:12:29.909+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:12:30.046+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:12:30.127+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:12:30.127+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:12:30.145+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:12:30.145+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:12:30.163+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.261 seconds
+[2023-12-01T21:13:00.292+0200] {processor.py:157} INFO - Started process (PID=5874) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:13:00.293+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:13:00.294+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:13:00.293+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:13:00.440+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:13:00.566+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:13:00.566+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:13:00.586+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:13:00.586+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:13:00.605+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.317 seconds
+[2023-12-01T21:13:30.727+0200] {processor.py:157} INFO - Started process (PID=5966) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:13:30.731+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:13:30.732+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:13:30.732+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:13:30.859+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:13:30.920+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:13:30.920+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:13:30.937+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:13:30.937+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:13:30.953+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.229 seconds
+[2023-12-01T21:14:01.063+0200] {processor.py:157} INFO - Started process (PID=6066) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:14:01.063+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:14:01.064+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:14:01.064+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:14:01.193+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:14:01.263+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:14:01.262+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:14:01.281+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:14:01.281+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:14:01.299+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.239 seconds
+[2023-12-01T21:14:31.413+0200] {processor.py:157} INFO - Started process (PID=6161) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:14:31.417+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:14:31.418+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:14:31.418+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:14:31.539+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:14:31.627+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:14:31.627+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:14:31.646+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:14:31.646+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:14:31.673+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.263 seconds
+[2023-12-01T21:15:01.799+0200] {processor.py:157} INFO - Started process (PID=6265) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:15:01.800+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:15:01.801+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:15:01.800+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:15:01.919+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:15:01.982+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:15:01.982+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:15:02.002+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:15:02.002+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:15:02.019+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.223 seconds
+[2023-12-01T21:15:32.128+0200] {processor.py:157} INFO - Started process (PID=6357) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:15:32.130+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:15:32.131+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:15:32.130+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:15:32.258+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:15:32.321+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:15:32.320+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:15:32.339+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:15:32.339+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:15:32.358+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.233 seconds
+[2023-12-01T21:16:02.472+0200] {processor.py:157} INFO - Started process (PID=6455) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:16:02.472+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:16:02.473+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:16:02.473+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:16:02.591+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:16:02.657+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:16:02.657+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:16:02.676+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:16:02.675+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:16:02.719+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.250 seconds
+[2023-12-01T21:16:32.832+0200] {processor.py:157} INFO - Started process (PID=6547) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:16:32.836+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:16:32.837+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:16:32.837+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:16:32.967+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:16:33.042+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:16:33.042+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:16:33.061+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:16:33.061+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:16:33.077+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.249 seconds
+[2023-12-01T21:17:03.194+0200] {processor.py:157} INFO - Started process (PID=6648) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:17:03.195+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:17:03.195+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:17:03.195+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:17:03.328+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:17:03.395+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:17:03.394+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:17:03.411+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:17:03.411+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:17:03.431+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.240 seconds
+[2023-12-01T21:17:33.543+0200] {processor.py:157} INFO - Started process (PID=6740) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:17:33.547+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:17:33.548+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:17:33.548+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:17:33.694+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:17:33.769+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:17:33.769+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:17:33.787+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:17:33.787+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:17:33.805+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.265 seconds
+[2023-12-01T21:18:03.921+0200] {processor.py:157} INFO - Started process (PID=6838) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:18:03.922+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:18:03.922+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:18:03.922+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:18:04.048+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:18:04.113+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:18:04.113+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:18:04.132+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:18:04.132+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:18:04.149+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.231 seconds
+[2023-12-01T21:18:34.264+0200] {processor.py:157} INFO - Started process (PID=6934) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:18:34.269+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:18:34.269+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:18:34.269+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:18:34.391+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:18:34.456+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:18:34.456+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:18:34.473+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:18:34.473+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:18:34.488+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.227 seconds
+[2023-12-01T21:19:04.602+0200] {processor.py:157} INFO - Started process (PID=7028) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:19:04.603+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:19:04.604+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:19:04.604+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:19:04.770+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:19:04.860+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:19:04.860+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:19:04.884+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:19:04.884+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:19:04.910+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.312 seconds
+[2023-12-01T21:19:35.023+0200] {processor.py:157} INFO - Started process (PID=7128) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:19:35.026+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:19:35.027+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:19:35.027+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:19:35.168+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:19:35.278+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:19:35.278+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:19:35.300+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:19:35.300+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:19:35.320+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.300 seconds
+[2023-12-01T21:20:05.438+0200] {processor.py:157} INFO - Started process (PID=7222) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:20:05.439+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:20:05.440+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:20:05.440+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:20:05.553+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:20:05.615+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:20:05.615+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:20:05.635+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:20:05.635+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:20:05.651+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.216 seconds
+[2023-12-01T21:20:35.775+0200] {processor.py:157} INFO - Started process (PID=7320) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:20:35.781+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:20:35.783+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:20:35.782+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:20:35.925+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:20:35.997+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:20:35.997+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:20:36.016+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:20:36.016+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:20:36.036+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.269 seconds
+[2023-12-01T21:21:06.158+0200] {processor.py:157} INFO - Started process (PID=7412) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:21:06.159+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:21:06.159+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:21:06.159+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:21:06.280+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:21:06.347+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:21:06.346+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:21:06.367+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:21:06.367+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:21:06.387+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.236 seconds
+[2023-12-01T21:21:36.509+0200] {processor.py:157} INFO - Started process (PID=7510) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:21:36.514+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:21:36.518+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:21:36.517+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:21:36.716+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:21:36.780+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:21:36.780+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:21:36.800+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:21:36.799+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:21:36.816+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.312 seconds
+[2023-12-01T21:22:06.940+0200] {processor.py:157} INFO - Started process (PID=7626) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:22:06.940+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:22:06.941+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:22:06.941+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:22:07.057+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:22:07.132+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:22:07.132+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:22:07.163+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:22:07.163+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:22:07.182+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.249 seconds
+[2023-12-01T21:22:37.306+0200] {processor.py:157} INFO - Started process (PID=7731) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:22:37.308+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:22:37.309+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:22:37.309+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:22:37.509+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:22:37.626+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:22:37.626+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:22:37.657+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:22:37.656+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:22:37.678+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.376 seconds
+[2023-12-01T21:23:07.849+0200] {processor.py:157} INFO - Started process (PID=7825) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:23:07.850+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:23:07.852+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:23:07.851+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:23:08.013+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:23:08.089+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:23:08.089+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:23:08.108+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:23:08.108+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:23:08.127+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.283 seconds
+[2023-12-01T21:23:38.257+0200] {processor.py:157} INFO - Started process (PID=7923) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:23:38.262+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:23:38.263+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:23:38.263+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:23:38.399+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:23:38.475+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:23:38.475+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:23:38.502+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:23:38.501+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:23:38.522+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.275 seconds
+[2023-12-01T21:24:08.648+0200] {processor.py:157} INFO - Started process (PID=8015) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:24:08.649+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:24:08.650+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:24:08.649+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:24:08.767+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:24:08.833+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:24:08.833+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:24:08.852+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:24:08.852+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:24:08.868+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.224 seconds
+[2023-12-01T21:24:38.988+0200] {processor.py:157} INFO - Started process (PID=8127) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:24:38.989+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:24:38.990+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:24:38.989+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:24:39.138+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:24:39.209+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:24:39.209+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:24:39.229+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:24:39.229+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:24:39.244+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.262 seconds
+[2023-12-01T21:25:09.367+0200] {processor.py:157} INFO - Started process (PID=8246) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:25:09.368+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:25:09.369+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:25:09.368+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:25:09.501+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:25:09.567+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:25:09.567+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:25:09.595+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:25:09.595+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:25:09.613+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.254 seconds
+[2023-12-01T21:25:39.743+0200] {processor.py:157} INFO - Started process (PID=8352) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:25:39.746+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:25:39.747+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:25:39.746+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:25:39.940+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:25:40.019+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:25:40.019+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:25:40.038+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:25:40.038+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:25:40.062+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.332 seconds
+[2023-12-01T21:26:09.852+0200] {processor.py:157} INFO - Started process (PID=8470) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:26:09.853+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:26:09.854+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:26:09.853+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:26:09.985+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:26:10.092+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:26:10.092+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:26:10.134+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:26:10.134+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:26:10.161+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.313 seconds
+[2023-12-01T21:26:16.880+0200] {processor.py:157} INFO - Started process (PID=8500) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:26:16.884+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:26:16.885+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:26:16.885+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:26:17.008+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:26:17.080+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:26:17.080+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:26:17.106+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:26:17.106+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:26:17.166+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.289 seconds
+[2023-12-01T21:26:18.198+0200] {processor.py:157} INFO - Started process (PID=8512) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:26:18.199+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:26:18.200+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:26:18.200+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:26:18.359+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:26:18.439+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:26:18.439+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:26:18.459+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:26:18.459+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:26:18.482+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.290 seconds
+[2023-12-01T21:26:48.603+0200] {processor.py:157} INFO - Started process (PID=8609) to work on /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:26:48.603+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/weather.py for tasks to queue
+[2023-12-01T21:26:48.604+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:26:48.604+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:26:48.738+0200] {processor.py:839} INFO - DAG(s) dict_keys(['weather']) retrieved from /home/yurabd/airflow/dags/weather.py
+[2023-12-01T21:26:48.826+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:26:48.825+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:26:48.846+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:26:48.846+0200] {dag.py:3722} INFO - Setting next_dagrun for weather to 2023-11-10T00:00:00+00:00, run_after=2023-11-11T00:00:00+00:00
+[2023-12-01T21:26:48.865+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/weather.py took 0.265 seconds

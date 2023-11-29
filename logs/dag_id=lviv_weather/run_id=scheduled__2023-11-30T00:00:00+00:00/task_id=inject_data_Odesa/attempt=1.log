@@ -1,0 +1,35 @@
+[2023-12-01T20:23:03.819+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lviv_weather.inject_data_Odesa scheduled__2023-11-30T00:00:00+00:00 [queued]>
+[2023-12-01T20:23:03.846+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lviv_weather.inject_data_Odesa scheduled__2023-11-30T00:00:00+00:00 [queued]>
+[2023-12-01T20:23:03.847+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-12-01T20:23:03.912+0200] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): inject_data_Odesa> on 2023-11-30 00:00:00+00:00
+[2023-12-01T20:23:03.919+0200] {standard_task_runner.py:57} INFO - Started process 1457 to run task
+[2023-12-01T20:23:03.924+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'lviv_weather', 'inject_data_Odesa', 'scheduled__2023-11-30T00:00:00+00:00', '--job-id', '248', '--raw', '--subdir', 'DAGS_FOLDER/lviv_weather.py', '--cfg-path', '/tmp/tmpjpl6xhsu']
+[2023-12-01T20:23:03.928+0200] {standard_task_runner.py:85} INFO - Job 248: Subtask inject_data_Odesa
+[2023-12-01T20:23:04.097+0200] {task_command.py:416} INFO - Running <TaskInstance: lviv_weather.inject_data_Odesa scheduled__2023-11-30T00:00:00+00:00 [running]> on host yurabd.
+[2023-12-01T20:23:04.774+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='lviv_weather' AIRFLOW_CTX_TASK_ID='inject_data_Odesa' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-30T00:00:00+00:00'
+[2023-12-01T20:23:04.776+0200] {sql.py:274} INFO - Executing: 
+            INSERT INTO measures (city, timestamp, date, temp, humidity, clouds, wind_speed) VALUES
+            ('Odesa',
+            to_timestamp(1701302400),
+            '2023-11-30 00:00:00',
+            1.14,
+            63,
+            86,
+            5.42);
+            
+[2023-12-01T20:23:04.799+0200] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-01T20:23:04.868+0200] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-01T20:23:04.885+0200] {sql.py:418} INFO - Running statement: 
+            INSERT INTO measures (city, timestamp, date, temp, humidity, clouds, wind_speed) VALUES
+            ('Odesa',
+            to_timestamp(1701302400),
+            '2023-11-30 00:00:00',
+            1.14,
+            63,
+            86,
+            5.42);
+            , parameters: None
+[2023-12-01T20:23:04.898+0200] {sql.py:427} INFO - Rows affected: 1
+[2023-12-01T20:23:04.923+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=lviv_weather, task_id=inject_data_Odesa, execution_date=20231130T000000, start_date=20231201T182303, end_date=20231201T182304
+[2023-12-01T20:23:04.983+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-01T20:23:05.017+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

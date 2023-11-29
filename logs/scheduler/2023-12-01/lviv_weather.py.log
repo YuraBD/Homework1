@@ -1,0 +1,616 @@
+[2023-12-01T20:22:52.672+0200] {processor.py:157} INFO - Started process (PID=1210) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:22:52.672+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:22:52.673+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:22:52.673+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:22:52.770+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:22:52.942+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:22:52.942+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:22:52.974+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:22:52.973+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:22:52.999+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.331 seconds
+[2023-12-01T20:23:23.151+0200] {processor.py:157} INFO - Started process (PID=1587) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:23:23.152+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:23:23.153+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:23:23.152+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:23:23.273+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:23:23.343+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:23:23.343+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:23:23.361+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:23:23.360+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:23:23.380+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.232 seconds
+[2023-12-01T20:23:53.512+0200] {processor.py:157} INFO - Started process (PID=1600) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:23:53.515+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:23:53.516+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:23:53.516+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:23:53.622+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:23:53.677+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:23:53.677+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:23:53.695+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:23:53.695+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:23:53.711+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.202 seconds
+[2023-12-01T20:24:23.844+0200] {processor.py:157} INFO - Started process (PID=1657) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:24:23.845+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:24:23.845+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:24:23.845+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:24:23.944+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:24:24.004+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:24:24.004+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:24:24.022+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:24:24.022+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:24:24.040+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.198 seconds
+[2023-12-01T20:24:54.179+0200] {processor.py:157} INFO - Started process (PID=1671) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:24:54.180+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:24:54.180+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:24:54.180+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:24:54.288+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:24:54.350+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:24:54.350+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:24:54.462+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:24:54.462+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:24:54.480+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.304 seconds
+[2023-12-01T20:25:24.612+0200] {processor.py:157} INFO - Started process (PID=1688) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:25:24.612+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:25:24.613+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:25:24.612+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:25:24.729+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:25:24.792+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:25:24.792+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:25:24.895+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:25:24.895+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:25:24.910+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.301 seconds
+[2023-12-01T20:25:55.048+0200] {processor.py:157} INFO - Started process (PID=1702) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:25:55.049+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:25:55.049+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:25:55.049+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:25:55.244+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:25:55.300+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:25:55.300+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:25:55.315+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:25:55.315+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:25:55.333+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.287 seconds
+[2023-12-01T20:26:25.449+0200] {processor.py:157} INFO - Started process (PID=1716) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:26:25.449+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:26:25.450+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:26:25.450+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:26:25.565+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:26:25.630+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:26:25.630+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:26:25.650+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:26:25.650+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:26:25.670+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.225 seconds
+[2023-12-01T20:26:55.770+0200] {processor.py:157} INFO - Started process (PID=1732) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:26:55.774+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:26:55.775+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:26:55.775+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:26:55.892+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:26:55.958+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:26:55.958+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:26:55.980+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:26:55.980+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:26:56.001+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.233 seconds
+[2023-12-01T20:27:26.077+0200] {processor.py:157} INFO - Started process (PID=1746) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:27:26.078+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:27:26.078+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:27:26.078+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:27:26.190+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:27:26.254+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:27:26.254+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:27:26.271+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:27:26.271+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:27:26.287+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.213 seconds
+[2023-12-01T20:27:56.382+0200] {processor.py:157} INFO - Started process (PID=1760) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:27:56.386+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:27:56.387+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:27:56.387+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:27:56.497+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:27:56.562+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:27:56.562+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:27:56.580+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:27:56.580+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:27:56.596+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.217 seconds
+[2023-12-01T20:28:26.699+0200] {processor.py:157} INFO - Started process (PID=1785) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:28:26.699+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:28:26.700+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:28:26.699+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:28:26.811+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:28:26.876+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:28:26.876+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:28:26.893+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:28:26.893+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:28:26.909+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.214 seconds
+[2023-12-01T20:28:56.996+0200] {processor.py:157} INFO - Started process (PID=1799) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:28:56.998+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:28:56.998+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:28:56.998+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:28:57.141+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:28:57.212+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:28:57.212+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:28:57.233+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:28:57.233+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:28:57.252+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.261 seconds
+[2023-12-01T20:29:27.405+0200] {processor.py:157} INFO - Started process (PID=2184) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:29:27.406+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:29:27.406+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:29:27.406+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:29:27.517+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:29:27.582+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:29:27.581+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:29:27.600+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:29:27.600+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:29:27.616+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.213 seconds
+[2023-12-01T20:29:57.712+0200] {processor.py:157} INFO - Started process (PID=2201) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:29:57.716+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:29:57.717+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:29:57.717+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:29:57.825+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:29:57.890+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:29:57.890+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:29:57.908+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:29:57.908+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:29:57.925+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.216 seconds
+[2023-12-01T20:30:28.034+0200] {processor.py:157} INFO - Started process (PID=2582) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:30:28.034+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:30:28.035+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:30:28.035+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:30:28.146+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:30:28.213+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:30:28.212+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:30:28.232+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:30:28.232+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:30:28.250+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.220 seconds
+[2023-12-01T20:30:58.338+0200] {processor.py:157} INFO - Started process (PID=2596) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:30:58.343+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:30:58.344+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:30:58.343+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:30:58.467+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:30:58.541+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:30:58.541+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:30:58.563+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:30:58.562+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:30:58.580+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.247 seconds
+[2023-12-01T20:31:28.644+0200] {processor.py:157} INFO - Started process (PID=2610) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:31:28.644+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:31:28.645+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:31:28.645+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:31:28.741+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:31:28.795+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:31:28.795+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:31:28.814+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:31:28.814+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:31:28.830+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.190 seconds
+[2023-12-01T20:31:58.970+0200] {processor.py:157} INFO - Started process (PID=2626) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:31:58.971+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:31:58.972+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:31:58.972+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:31:59.087+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:31:59.166+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:31:59.166+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:31:59.188+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:31:59.188+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:31:59.206+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.239 seconds
+[2023-12-01T20:32:29.344+0200] {processor.py:157} INFO - Started process (PID=2668) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:32:29.345+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:32:29.346+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:32:29.346+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:32:29.442+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:32:29.499+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:32:29.498+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:32:29.518+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:32:29.517+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:32:29.534+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.193 seconds
+[2023-12-01T20:32:59.680+0200] {processor.py:157} INFO - Started process (PID=2682) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:32:59.681+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:32:59.682+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:32:59.681+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:32:59.788+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:32:59.847+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:32:59.847+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:32:59.865+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:32:59.865+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:32:59.881+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.204 seconds
+[2023-12-01T20:33:30.011+0200] {processor.py:157} INFO - Started process (PID=2696) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:33:30.012+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:33:30.013+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:33:30.013+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:33:30.121+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:33:30.179+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:33:30.179+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:33:30.198+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:33:30.198+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:33:30.214+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.206 seconds
+[2023-12-01T20:34:00.321+0200] {processor.py:157} INFO - Started process (PID=2710) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:34:00.325+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:34:00.326+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:34:00.326+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:34:00.431+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:34:00.494+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:34:00.494+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:34:00.511+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:34:00.511+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:34:00.527+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.209 seconds
+[2023-12-01T20:34:30.668+0200] {processor.py:157} INFO - Started process (PID=2742) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:34:30.670+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:34:30.671+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:34:30.670+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:34:30.790+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:34:30.852+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:34:30.852+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:34:30.871+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:34:30.871+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:34:30.890+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.226 seconds
+[2023-12-01T20:35:01.000+0200] {processor.py:157} INFO - Started process (PID=2765) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:35:01.004+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:35:01.005+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:35:01.005+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:35:01.114+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:35:01.176+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:35:01.176+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:35:01.195+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:35:01.194+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:35:01.211+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.214 seconds
+[2023-12-01T20:35:31.304+0200] {processor.py:157} INFO - Started process (PID=2782) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:35:31.308+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:35:31.309+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:35:31.309+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:35:31.416+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:35:31.476+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:35:31.475+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:35:31.494+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:35:31.494+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:35:31.510+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.209 seconds
+[2023-12-01T20:36:01.592+0200] {processor.py:157} INFO - Started process (PID=2796) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:36:01.596+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:36:01.597+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:36:01.597+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:36:01.711+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:36:01.773+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:36:01.772+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:36:01.791+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:36:01.791+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:36:01.808+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.219 seconds
+[2023-12-01T20:36:31.921+0200] {processor.py:157} INFO - Started process (PID=2811) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:36:31.922+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:36:31.923+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:36:31.922+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:36:32.035+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:36:32.094+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:36:32.094+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:36:32.113+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:36:32.112+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:36:32.129+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.212 seconds
+[2023-12-01T20:37:02.215+0200] {processor.py:157} INFO - Started process (PID=2825) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:37:02.217+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:37:02.217+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:37:02.217+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:37:02.317+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:37:02.378+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:37:02.377+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:37:02.396+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:37:02.396+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:37:02.413+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.200 seconds
+[2023-12-01T20:37:32.509+0200] {processor.py:157} INFO - Started process (PID=2839) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:37:32.510+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:37:32.511+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:37:32.511+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:37:32.618+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:37:32.679+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:37:32.679+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:37:32.697+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:37:32.697+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:37:32.713+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.207 seconds
+[2023-12-01T20:38:02.810+0200] {processor.py:157} INFO - Started process (PID=2853) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:38:02.812+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:38:02.813+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:38:02.812+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:38:02.937+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:38:03.009+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:38:03.009+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:38:03.031+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:38:03.031+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:38:03.050+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.243 seconds
+[2023-12-01T20:38:33.104+0200] {processor.py:157} INFO - Started process (PID=2867) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:38:33.105+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:38:33.106+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:38:33.105+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:38:33.212+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:38:33.275+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:38:33.275+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:38:33.293+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:38:33.293+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:38:33.309+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.208 seconds
+[2023-12-01T20:39:03.402+0200] {processor.py:157} INFO - Started process (PID=2881) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:39:03.406+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:39:03.407+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:39:03.407+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:39:03.514+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:39:03.575+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:39:03.574+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:39:03.593+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:39:03.593+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:39:03.609+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.210 seconds
+[2023-12-01T20:39:33.707+0200] {processor.py:157} INFO - Started process (PID=2896) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:39:33.711+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:39:33.712+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:39:33.712+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:39:33.825+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:39:33.884+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:39:33.883+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:39:33.901+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:39:33.901+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:39:33.943+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.238 seconds
+[2023-12-01T20:40:04.016+0200] {processor.py:157} INFO - Started process (PID=2910) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:40:04.017+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:40:04.017+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:40:04.017+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:40:04.138+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:40:04.219+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:40:04.219+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:40:04.239+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:40:04.239+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:40:04.257+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.244 seconds
+[2023-12-01T20:40:34.327+0200] {processor.py:157} INFO - Started process (PID=2924) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:40:34.330+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:40:34.331+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:40:34.331+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:40:34.429+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:40:34.485+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:40:34.485+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:40:34.504+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:40:34.504+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:40:34.519+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.195 seconds
+[2023-12-01T20:41:04.627+0200] {processor.py:157} INFO - Started process (PID=2938) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:41:04.628+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:41:04.629+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:41:04.629+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:41:04.744+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:41:04.813+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:41:04.813+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:41:04.832+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:41:04.832+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:41:04.847+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.223 seconds
+[2023-12-01T20:41:34.941+0200] {processor.py:157} INFO - Started process (PID=2953) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:41:34.942+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:41:34.943+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:41:34.943+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:41:35.110+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:41:35.212+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:41:35.212+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:41:35.241+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:41:35.240+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:41:35.265+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.329 seconds
+[2023-12-01T20:42:05.418+0200] {processor.py:157} INFO - Started process (PID=2967) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:42:05.423+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:42:05.424+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:42:05.424+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:42:05.603+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:42:05.714+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:42:05.713+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:42:05.742+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:42:05.742+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:42:05.765+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.352 seconds
+[2023-12-01T20:42:35.934+0200] {processor.py:157} INFO - Started process (PID=2981) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:42:35.934+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:42:35.935+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:42:35.935+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:42:36.111+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:42:36.215+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:42:36.214+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:42:36.245+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:42:36.244+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:42:36.273+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.344 seconds
+[2023-12-01T20:43:06.389+0200] {processor.py:157} INFO - Started process (PID=2995) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:43:06.394+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:43:06.395+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:43:06.394+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:43:06.521+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:43:06.589+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:43:06.589+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:43:06.611+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:43:06.611+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:43:06.633+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.248 seconds
+[2023-12-01T20:43:36.765+0200] {processor.py:157} INFO - Started process (PID=3014) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:43:36.766+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:43:36.766+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:43:36.766+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:43:36.874+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:43:36.939+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:43:36.939+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:43:36.959+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:43:36.958+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:43:36.976+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.213 seconds
+[2023-12-01T20:44:07.110+0200] {processor.py:157} INFO - Started process (PID=3028) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:44:07.111+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:44:07.111+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:44:07.111+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:44:07.207+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:44:07.267+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:44:07.267+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:44:07.288+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:44:07.288+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:44:07.304+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.196 seconds
+[2023-12-01T20:44:37.443+0200] {processor.py:157} INFO - Started process (PID=3042) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:44:37.446+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:44:37.447+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:44:37.447+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:44:37.570+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:44:37.633+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:44:37.633+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:44:37.652+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:44:37.651+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:44:37.672+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.232 seconds
+[2023-12-01T20:45:07.751+0200] {processor.py:157} INFO - Started process (PID=3059) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:45:07.752+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:45:07.752+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:45:07.752+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:45:07.861+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:45:07.928+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:45:07.928+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:45:07.947+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:45:07.946+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:45:07.963+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.215 seconds
+[2023-12-01T20:45:38.059+0200] {processor.py:157} INFO - Started process (PID=3073) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:45:38.060+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:45:38.060+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:45:38.060+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:45:38.174+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:45:38.239+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:45:38.239+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:45:38.257+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:45:38.257+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:45:38.273+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.217 seconds
+[2023-12-01T20:46:08.378+0200] {processor.py:157} INFO - Started process (PID=3087) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:46:08.380+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:46:08.381+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:46:08.380+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:46:08.565+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:46:08.667+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:46:08.667+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:46:08.696+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:46:08.696+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:46:08.724+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.350 seconds
+[2023-12-01T20:46:38.887+0200] {processor.py:157} INFO - Started process (PID=3101) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:46:38.888+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:46:38.889+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:46:38.889+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:46:39.052+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:46:39.152+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:46:39.152+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:46:39.183+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:46:39.183+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:46:39.209+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.325 seconds
+[2023-12-01T20:47:09.375+0200] {processor.py:157} INFO - Started process (PID=3115) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:47:09.379+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:47:09.380+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:47:09.380+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:47:09.541+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:47:09.627+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:47:09.627+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:47:09.657+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:47:09.657+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:47:09.683+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.312 seconds
+[2023-12-01T20:47:39.846+0200] {processor.py:157} INFO - Started process (PID=3129) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:47:39.847+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:47:39.848+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:47:39.848+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:47:40.034+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:47:40.136+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:47:40.136+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:47:40.166+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:47:40.165+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:47:40.190+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.348 seconds
+[2023-12-01T20:48:10.368+0200] {processor.py:157} INFO - Started process (PID=3143) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:48:10.368+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:48:10.369+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:48:10.369+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:48:10.549+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:48:10.653+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:48:10.653+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:48:10.688+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:48:10.687+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:48:10.717+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.354 seconds
+[2023-12-01T20:48:40.882+0200] {processor.py:157} INFO - Started process (PID=3157) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:48:40.887+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:48:40.888+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:48:40.887+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:48:41.058+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:48:41.159+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:48:41.159+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:48:41.188+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:48:41.187+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:48:41.213+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.334 seconds
+[2023-12-01T20:49:11.376+0200] {processor.py:157} INFO - Started process (PID=3171) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:49:11.377+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:49:11.378+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:49:11.377+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:49:11.490+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:49:11.554+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:49:11.553+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:49:11.572+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:49:11.572+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:49:11.589+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.216 seconds
+[2023-12-01T20:49:41.685+0200] {processor.py:157} INFO - Started process (PID=3185) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:49:41.686+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:49:41.687+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:49:41.686+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:49:41.815+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:49:41.881+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:49:41.881+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:49:41.900+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:49:41.900+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:49:41.917+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.235 seconds
+[2023-12-01T20:50:11.992+0200] {processor.py:157} INFO - Started process (PID=3200) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:50:11.996+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:50:11.996+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:50:11.996+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:50:12.104+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:50:12.169+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:50:12.169+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:50:12.188+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:50:12.188+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:50:12.205+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.216 seconds
+[2023-12-01T20:50:42.300+0200] {processor.py:157} INFO - Started process (PID=3214) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:50:42.301+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:50:42.301+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:50:42.301+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:50:42.411+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:50:42.478+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:50:42.478+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:50:42.495+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:50:42.495+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:50:42.511+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.214 seconds
+[2023-12-01T20:51:12.652+0200] {processor.py:157} INFO - Started process (PID=3228) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:51:12.653+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:51:12.654+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:51:12.653+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:51:12.762+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:51:12.823+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:51:12.823+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:51:12.842+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:51:12.842+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:51:12.858+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.209 seconds
+[2023-12-01T20:51:42.952+0200] {processor.py:157} INFO - Started process (PID=3242) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:51:42.952+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:51:42.953+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:51:42.953+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:51:43.058+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:51:43.118+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:51:43.117+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:51:43.136+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:51:43.136+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:51:43.152+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.204 seconds
+[2023-12-01T20:52:13.260+0200] {processor.py:157} INFO - Started process (PID=3256) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:52:13.264+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:52:13.265+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:52:13.264+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:52:13.378+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:52:13.444+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:52:13.444+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:52:13.463+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:52:13.462+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:52:13.480+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.224 seconds
+[2023-12-01T20:52:43.592+0200] {processor.py:157} INFO - Started process (PID=3270) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:52:43.597+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:52:43.598+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:52:43.598+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:52:43.776+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:52:43.893+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:52:43.893+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:52:43.922+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:52:43.921+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:52:43.947+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.359 seconds
+[2023-12-01T20:53:14.059+0200] {processor.py:157} INFO - Started process (PID=3286) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:53:14.060+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:53:14.061+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:53:14.061+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:53:14.244+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:53:14.347+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:53:14.347+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:53:14.377+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:53:14.377+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:53:14.405+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.350 seconds
+[2023-12-01T20:53:44.510+0200] {processor.py:157} INFO - Started process (PID=3300) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:53:44.511+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:53:44.512+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:53:44.512+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:53:44.703+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:53:44.804+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:53:44.804+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:53:44.834+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:53:44.834+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:53:44.858+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.353 seconds
+[2023-12-01T20:54:14.987+0200] {processor.py:157} INFO - Started process (PID=3314) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:54:14.988+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:54:14.989+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:54:14.989+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:54:15.168+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:54:15.272+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:54:15.271+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:54:15.300+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:54:15.300+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:54:15.327+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.344 seconds
+[2023-12-01T20:54:45.469+0200] {processor.py:157} INFO - Started process (PID=3328) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:54:45.473+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:54:45.474+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:54:45.474+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:54:45.591+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:54:45.660+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:54:45.659+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:54:45.679+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:54:45.679+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:54:45.697+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.231 seconds
+[2023-12-01T20:55:15.786+0200] {processor.py:157} INFO - Started process (PID=3345) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:55:15.787+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:55:15.787+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:55:15.787+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:55:15.906+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:55:15.974+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:55:15.974+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:55:15.994+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:55:15.993+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:55:16.010+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.228 seconds
+[2023-12-01T20:55:46.098+0200] {processor.py:157} INFO - Started process (PID=3359) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:55:46.102+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:55:46.103+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:55:46.102+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:55:46.228+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:55:46.294+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:55:46.293+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:55:46.312+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:55:46.311+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:55:46.328+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.233 seconds
+[2023-12-01T20:56:16.411+0200] {processor.py:157} INFO - Started process (PID=3378) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:56:16.412+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:56:16.413+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:56:16.413+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:56:16.544+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:56:16.610+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:56:16.610+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:56:16.629+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:56:16.629+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:56:16.649+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.241 seconds
+[2023-12-01T20:56:46.775+0200] {processor.py:157} INFO - Started process (PID=3392) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:56:46.777+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:56:46.777+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:56:46.777+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:56:46.953+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:56:47.030+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:56:47.030+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:56:47.052+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:56:47.052+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:56:47.076+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.306 seconds
+[2023-12-01T20:57:17.120+0200] {processor.py:157} INFO - Started process (PID=3406) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:57:17.121+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:57:17.121+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:57:17.121+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:57:17.244+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:57:17.312+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:57:17.312+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:57:17.333+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:57:17.332+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:57:17.351+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.234 seconds
+[2023-12-01T20:57:47.498+0200] {processor.py:157} INFO - Started process (PID=3420) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:57:47.498+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:57:47.499+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:57:47.498+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:57:47.621+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:57:47.689+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:57:47.688+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:57:47.709+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:57:47.709+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:57:47.727+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.232 seconds
+[2023-12-01T20:58:17.843+0200] {processor.py:157} INFO - Started process (PID=3434) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:58:17.844+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:58:17.845+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:58:17.844+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:58:17.967+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:58:18.039+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:58:18.038+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:58:18.057+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:58:18.057+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:58:18.078+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.238 seconds
+[2023-12-01T20:58:48.181+0200] {processor.py:157} INFO - Started process (PID=3448) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:58:48.182+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:58:48.183+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:58:48.183+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:58:48.337+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:58:48.409+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:58:48.408+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:58:48.429+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:58:48.429+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:58:48.449+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.271 seconds
+[2023-12-01T20:59:18.524+0200] {processor.py:157} INFO - Started process (PID=3462) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:59:18.528+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:59:18.529+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:59:18.529+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:59:18.651+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:59:18.718+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:59:18.718+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:59:18.739+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:59:18.738+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:59:18.757+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.236 seconds
+[2023-12-01T20:59:48.897+0200] {processor.py:157} INFO - Started process (PID=3476) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:59:48.897+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T20:59:48.898+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:59:48.898+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:59:49.045+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T20:59:49.125+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:59:49.124+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T20:59:49.145+0200] {logging_mixin.py:154} INFO - [2023-12-01T20:59:49.145+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T20:59:49.162+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.268 seconds
+[2023-12-01T21:00:19.249+0200] {processor.py:157} INFO - Started process (PID=3491) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:00:19.255+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:00:19.256+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:00:19.256+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:00:19.391+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:00:19.463+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:00:19.463+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:00:19.482+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:00:19.482+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:00:19.503+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.259 seconds
+[2023-12-01T21:00:49.602+0200] {processor.py:157} INFO - Started process (PID=3505) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:00:49.602+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:00:49.603+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:00:49.603+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:00:49.722+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:00:49.795+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:00:49.794+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:00:49.814+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:00:49.814+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:00:49.831+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.232 seconds
+[2023-12-01T21:01:19.942+0200] {processor.py:157} INFO - Started process (PID=3520) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:01:19.943+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:01:19.944+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:01:19.943+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:01:20.060+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:01:20.125+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:01:20.125+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:01:20.146+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:01:20.146+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:01:20.162+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.223 seconds
+[2023-12-01T21:01:50.278+0200] {processor.py:157} INFO - Started process (PID=3534) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:01:50.279+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:01:50.280+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:01:50.280+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:01:50.401+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:01:50.468+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:01:50.467+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:01:50.486+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:01:50.486+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:01:50.502+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.227 seconds
+[2023-12-01T21:02:20.659+0200] {processor.py:157} INFO - Started process (PID=3653) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:02:20.660+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:02:20.661+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:02:20.661+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:02:20.767+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:02:20.826+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:02:20.826+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:02:20.844+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:02:20.844+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:02:20.861+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.205 seconds
+[2023-12-01T21:02:50.994+0200] {processor.py:157} INFO - Started process (PID=3761) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:02:50.995+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:02:50.996+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:02:50.995+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:02:51.100+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:02:51.161+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:02:51.161+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:02:51.179+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:02:51.179+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:02:51.196+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.205 seconds
+[2023-12-01T21:03:21.304+0200] {processor.py:157} INFO - Started process (PID=3859) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:03:21.308+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:03:21.309+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:03:21.309+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:03:21.409+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:03:21.462+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:03:21.462+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:03:21.480+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:03:21.480+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:03:21.508+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.207 seconds
+[2023-12-01T21:03:51.616+0200] {processor.py:157} INFO - Started process (PID=3963) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:03:51.617+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:03:51.618+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:03:51.617+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:03:51.720+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:03:51.780+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:03:51.780+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:03:51.799+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:03:51.799+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:03:51.814+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.201 seconds
+[2023-12-01T21:04:21.955+0200] {processor.py:157} INFO - Started process (PID=4067) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:04:21.959+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:04:21.960+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:04:21.960+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:04:22.069+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:04:22.126+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:04:22.126+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:04:22.144+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:04:22.144+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:04:22.160+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.208 seconds
+[2023-12-01T21:04:52.296+0200] {processor.py:157} INFO - Started process (PID=4165) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:04:52.296+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:04:52.297+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:04:52.296+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:04:52.399+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:04:52.458+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:04:52.458+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:04:52.475+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:04:52.475+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:04:52.491+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.198 seconds
+[2023-12-01T21:05:22.631+0200] {processor.py:157} INFO - Started process (PID=4272) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:05:22.632+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:05:22.633+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:05:22.633+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:05:22.744+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:05:22.801+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:05:22.801+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:05:22.820+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:05:22.820+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:05:22.836+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.207 seconds
+[2023-12-01T21:05:52.976+0200] {processor.py:157} INFO - Started process (PID=4428) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:05:52.977+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:05:52.978+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:05:52.977+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:05:53.090+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:05:53.153+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:05:53.153+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:05:53.172+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:05:53.171+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:05:53.188+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.215 seconds
+[2023-12-01T21:06:23.321+0200] {processor.py:157} INFO - Started process (PID=4540) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:06:23.325+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:06:23.326+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:06:23.325+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:06:23.435+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:06:23.493+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:06:23.493+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:06:23.511+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:06:23.511+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:06:23.527+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.209 seconds
+[2023-12-01T21:06:53.669+0200] {processor.py:157} INFO - Started process (PID=4667) to work on /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:06:53.670+0200] {processor.py:829} INFO - Processing file /home/yurabd/airflow/dags/lviv_weather.py for tasks to queue
+[2023-12-01T21:06:53.672+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:06:53.670+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:06:53.832+0200] {processor.py:839} INFO - DAG(s) dict_keys(['lviv_weather']) retrieved from /home/yurabd/airflow/dags/lviv_weather.py
+[2023-12-01T21:06:53.911+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:06:53.910+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-01T21:06:53.936+0200] {logging_mixin.py:154} INFO - [2023-12-01T21:06:53.936+0200] {dag.py:3722} INFO - Setting next_dagrun for lviv_weather to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-01T21:06:53.954+0200] {processor.py:179} INFO - Processing /home/yurabd/airflow/dags/lviv_weather.py took 0.291 seconds

@@ -1,0 +1,21 @@
+[2023-11-28T03:09:56.841+0200] {processor.py:157} INFO - Started process (PID=27871) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-11-28T03:09:56.842+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2023-11-28T03:09:56.842+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:56.842+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-11-28T03:09:56.868+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-11-28T03:09:57.097+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:57.097+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:09:57.104+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:57.103+0200] {dag.py:3722} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2023-11-28T03:09:57.124+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.285 seconds
+[2023-11-28T03:10:44.800+0200] {processor.py:157} INFO - Started process (PID=27920) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-11-28T03:10:44.804+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2023-11-28T03:10:44.805+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:44.805+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-11-28T03:10:44.831+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-11-28T03:10:44.970+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:44.970+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:44.977+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:44.977+0200] {dag.py:3722} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2023-11-28T03:10:45.193+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.395 seconds
+[2023-11-28T03:11:42.084+0200] {processor.py:157} INFO - Started process (PID=27976) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-11-28T03:11:42.085+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2023-11-28T03:11:42.086+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:42.086+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-11-28T03:11:42.115+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-11-28T03:11:42.270+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:42.270+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:42.279+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:42.278+0200] {dag.py:3722} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2023-11-28T03:11:42.304+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.222 seconds

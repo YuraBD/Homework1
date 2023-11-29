@@ -1,0 +1,28 @@
+[2023-11-28T03:09:47.314+0200] {processor.py:157} INFO - Started process (PID=27863) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-28T03:09:47.314+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-11-28T03:09:47.315+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:47.315+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-28T03:09:47.341+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-28T03:09:47.367+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:47.367+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:09:47.374+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:47.374+0200] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-11-28T03:09:47.398+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.087 seconds
+[2023-11-28T03:10:36.005+0200] {processor.py:157} INFO - Started process (PID=27912) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-28T03:10:36.010+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-11-28T03:10:36.011+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:36.011+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-28T03:10:36.040+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-28T03:10:36.057+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:36.057+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:36.066+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:36.065+0200] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-11-28T03:10:36.088+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.085 seconds
+[2023-11-28T03:11:25.248+0200] {processor.py:157} INFO - Started process (PID=27959) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-28T03:11:25.252+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-11-28T03:11:25.253+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:25.253+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-28T03:11:25.285+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-28T03:11:25.304+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:25.304+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:25.312+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:25.312+0200] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-11-28T03:11:25.334+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.089 seconds
+[2023-11-28T03:12:18.264+0200] {processor.py:157} INFO - Started process (PID=28012) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-28T03:12:18.269+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-11-28T03:12:18.270+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:18.270+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-28T03:12:18.320+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-28T03:12:18.346+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:18.346+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:12:18.356+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:18.356+0200] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-11-28T03:12:18.387+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.128 seconds

@@ -1,0 +1,25 @@
+[2023-11-28T03:09:22.371+0200] {processor.py:157} INFO - Started process (PID=27839) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:09:22.372+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-11-28T03:09:22.372+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:22.372+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:09:22.394+0200] {processor.py:841} WARNING - No viable dags retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:09:22.401+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.032 seconds
+[2023-11-28T03:10:13.870+0200] {processor.py:157} INFO - Started process (PID=27888) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:10:13.874+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-11-28T03:10:13.875+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:13.874+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:10:13.894+0200] {processor.py:841} WARNING - No viable dags retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:10:13.902+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.034 seconds
+[2023-11-28T03:10:50.867+0200] {processor.py:157} INFO - Started process (PID=27926) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:10:50.871+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-11-28T03:10:50.872+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:50.872+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:10:50.891+0200] {processor.py:841} WARNING - No viable dags retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:10:50.900+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.035 seconds
+[2023-11-28T03:11:30.520+0200] {processor.py:157} INFO - Started process (PID=27964) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:11:30.524+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-11-28T03:11:30.525+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:30.525+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:11:30.549+0200] {processor.py:841} WARNING - No viable dags retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:11:30.557+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.041 seconds
+[2023-11-28T03:12:04.865+0200] {processor.py:157} INFO - Started process (PID=27998) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:12:04.866+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-11-28T03:12:04.867+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:12:04.867+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:12:04.890+0200] {processor.py:841} WARNING - No viable dags retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-28T03:12:04.899+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.036 seconds

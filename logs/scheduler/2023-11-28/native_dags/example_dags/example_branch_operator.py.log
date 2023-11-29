@@ -1,0 +1,21 @@
+[2023-11-28T03:10:07.313+0200] {processor.py:157} INFO - Started process (PID=27882) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-28T03:10:07.314+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-11-28T03:10:07.314+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:07.314+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-28T03:10:07.341+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-28T03:10:07.443+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:07.442+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:07.454+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:07.454+0200] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-11-27T00:00:00+00:00, run_after=2023-11-28T00:00:00+00:00
+[2023-11-28T03:10:07.475+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.164 seconds
+[2023-11-28T03:11:04.320+0200] {processor.py:157} INFO - Started process (PID=27938) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-28T03:11:04.324+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-11-28T03:11:04.325+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:04.324+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-28T03:11:04.354+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-28T03:11:04.372+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:04.372+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:04.387+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:04.387+0200] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-11-27T00:00:00+00:00, run_after=2023-11-28T00:00:00+00:00
+[2023-11-28T03:11:04.409+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.091 seconds
+[2023-11-28T03:11:59.336+0200] {processor.py:157} INFO - Started process (PID=27992) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-28T03:11:59.340+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-11-28T03:11:59.341+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:59.341+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-28T03:11:59.374+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-28T03:11:59.393+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:59.393+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:59.406+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:59.406+0200] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-11-27T00:00:00+00:00, run_after=2023-11-28T00:00:00+00:00
+[2023-11-28T03:11:59.428+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.094 seconds

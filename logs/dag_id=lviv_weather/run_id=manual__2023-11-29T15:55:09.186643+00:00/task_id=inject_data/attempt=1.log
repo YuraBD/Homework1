@@ -1,0 +1,25 @@
+[2023-11-29T17:56:55.320+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lviv_weather.inject_data manual__2023-11-29T15:55:09.186643+00:00 [queued]>
+[2023-11-29T17:56:55.327+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lviv_weather.inject_data manual__2023-11-29T15:55:09.186643+00:00 [queued]>
+[2023-11-29T17:56:55.327+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-29T17:56:55.406+0200] {taskinstance.py:1382} INFO - Executing <Task(SqliteOperator): inject_data> on 2023-11-29 15:55:09.186643+00:00
+[2023-11-29T17:56:55.408+0200] {standard_task_runner.py:57} INFO - Started process 47514 to run task
+[2023-11-29T17:56:55.411+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'lviv_weather', 'inject_data', 'manual__2023-11-29T15:55:09.186643+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/lviv_weather.py', '--cfg-path', '/tmp/tmp4a97srxp']
+[2023-11-29T17:56:55.411+0200] {standard_task_runner.py:85} INFO - Job 26: Subtask inject_data
+[2023-11-29T17:56:55.438+0200] {task_command.py:416} INFO - Running <TaskInstance: lviv_weather.inject_data manual__2023-11-29T15:55:09.186643+00:00 [running]> on host yurabd.
+[2023-11-29T17:56:55.495+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='lviv_weather' AIRFLOW_CTX_TASK_ID='inject_data' AIRFLOW_CTX_EXECUTION_DATE='2023-11-29T15:55:09.186643+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-29T15:55:09.186643+00:00'
+[2023-11-29T17:56:55.496+0200] {sql.py:274} INFO - Executing: 
+        INSERT INTO measures (timestamp, temp) VALUES
+        (1701273063,
+        267.27);
+        
+[2023-11-29T17:56:55.499+0200] {base.py:73} INFO - Using connection ID 'airflow_conn' for task execution.
+[2023-11-29T17:56:56.595+0200] {base.py:73} INFO - Using connection ID 'airflow_conn' for task execution.
+[2023-11-29T17:56:56.599+0200] {sql.py:418} INFO - Running statement: 
+        INSERT INTO measures (timestamp, temp) VALUES
+        (1701273063,
+        267.27);
+        , parameters: None
+[2023-11-29T17:56:58.336+0200] {sql.py:427} INFO - Rows affected: 1
+[2023-11-29T17:56:58.452+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=lviv_weather, task_id=inject_data, execution_date=20231129T155509, start_date=20231129T155655, end_date=20231129T155658
+[2023-11-29T17:56:58.476+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-29T17:56:58.484+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

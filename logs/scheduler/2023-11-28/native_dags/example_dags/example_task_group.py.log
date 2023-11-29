@@ -1,0 +1,28 @@
+[2023-11-28T03:09:36.998+0200] {processor.py:157} INFO - Started process (PID=27853) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-28T03:09:36.999+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-11-28T03:09:36.999+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:36.999+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-28T03:09:37.025+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-28T03:09:37.056+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:37.056+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:09:37.069+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:09:37.069+0200] {dag.py:3722} INFO - Setting next_dagrun for example_task_group to 2023-11-27T01:09:37.069344+00:00, run_after=2023-11-28T01:09:37.069344+00:00
+[2023-11-28T03:09:37.089+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.093 seconds
+[2023-11-28T03:10:25.705+0200] {processor.py:157} INFO - Started process (PID=27902) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-28T03:10:25.709+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-11-28T03:10:25.710+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:25.709+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-28T03:10:25.733+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-28T03:10:25.750+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:25.750+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:25.761+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:25.761+0200] {dag.py:3722} INFO - Setting next_dagrun for example_task_group to 2023-11-27T01:10:25.761457+00:00, run_after=2023-11-28T01:10:25.761457+00:00
+[2023-11-28T03:10:25.781+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.079 seconds
+[2023-11-28T03:11:16.073+0200] {processor.py:157} INFO - Started process (PID=27949) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-28T03:11:16.077+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-11-28T03:11:16.078+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:16.078+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-28T03:11:16.101+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-28T03:11:16.117+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:16.117+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:16.133+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:16.133+0200] {dag.py:3722} INFO - Setting next_dagrun for example_task_group to 2023-11-27T01:11:16.133507+00:00, run_after=2023-11-28T01:11:16.133507+00:00
+[2023-11-28T03:11:16.158+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.088 seconds
+[2023-11-28T03:11:52.296+0200] {processor.py:157} INFO - Started process (PID=27987) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-28T03:11:52.300+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-11-28T03:11:52.303+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:52.302+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-28T03:11:52.336+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-28T03:11:52.353+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:52.353+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:52.366+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:52.366+0200] {dag.py:3722} INFO - Setting next_dagrun for example_task_group to 2023-11-27T01:11:52.366033+00:00, run_after=2023-11-28T01:11:52.366033+00:00
+[2023-11-28T03:11:52.391+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.101 seconds

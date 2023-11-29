@@ -1,0 +1,13 @@
+[2023-11-30T03:15:13.889+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lviv_weather.process_data_Kyiv manual__2023-11-30T01:15:03.402311+00:00 [queued]>
+[2023-11-30T03:15:13.909+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lviv_weather.process_data_Kyiv manual__2023-11-30T01:15:03.402311+00:00 [queued]>
+[2023-11-30T03:15:13.910+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T03:15:13.934+0200] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): process_data_Kyiv> on 2023-11-30 01:15:03.402311+00:00
+[2023-11-30T03:15:13.940+0200] {standard_task_runner.py:57} INFO - Started process 171471 to run task
+[2023-11-30T03:15:13.946+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'lviv_weather', 'process_data_Kyiv', 'manual__2023-11-30T01:15:03.402311+00:00', '--job-id', '227', '--raw', '--subdir', 'DAGS_FOLDER/lviv_weather.py', '--cfg-path', '/tmp/tmpvy0w2no5']
+[2023-11-30T03:15:13.950+0200] {standard_task_runner.py:85} INFO - Job 227: Subtask process_data_Kyiv
+[2023-11-30T03:15:14.028+0200] {task_command.py:416} INFO - Running <TaskInstance: lviv_weather.process_data_Kyiv manual__2023-11-30T01:15:03.402311+00:00 [running]> on host yurabd.
+[2023-11-30T03:15:14.349+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='lviv_weather' AIRFLOW_CTX_TASK_ID='process_data_Kyiv' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T01:15:03.402311+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-30T01:15:03.402311+00:00'
+[2023-11-30T03:15:14.372+0200] {python.py:194} INFO - Done. Returned value was: (1701306903, '2023-11-30 01:15:03', -4.23, 81, 82, 0.89)
+[2023-11-30T03:15:14.432+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=lviv_weather, task_id=process_data_Kyiv, execution_date=20231130T011503, start_date=20231130T011513, end_date=20231130T011514
+[2023-11-30T03:15:14.482+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-30T03:15:14.548+0200] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,14 @@
+[2023-11-30T02:04:53.486+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lviv_weather.extract_data manual__2023-11-30T00:04:46.400371+00:00 [queued]>
+[2023-11-30T02:04:53.495+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lviv_weather.extract_data manual__2023-11-30T00:04:46.400371+00:00 [queued]>
+[2023-11-30T02:04:53.495+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T02:04:53.507+0200] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): extract_data> on 2023-11-30 00:04:46.400371+00:00
+[2023-11-30T02:04:53.509+0200] {standard_task_runner.py:57} INFO - Started process 153360 to run task
+[2023-11-30T02:04:53.511+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'lviv_weather', 'extract_data', 'manual__2023-11-30T00:04:46.400371+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/lviv_weather.py', '--cfg-path', '/tmp/tmpsq5nbvon']
+[2023-11-30T02:04:53.514+0200] {standard_task_runner.py:85} INFO - Job 61: Subtask extract_data
+[2023-11-30T02:04:53.569+0200] {task_command.py:416} INFO - Running <TaskInstance: lviv_weather.extract_data manual__2023-11-30T00:04:46.400371+00:00 [running]> on host yurabd.
+[2023-11-30T02:04:53.765+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='lviv_weather' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T00:04:46.400371+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-30T00:04:46.400371+00:00'
+[2023-11-30T02:04:53.848+0200] {lviv_weather.py:40} INFO - THIS IS TS VALUE ------ 2023-11-30T00:04:46.400371+00:00
+[2023-11-30T02:04:54.212+0200] {python.py:194} INFO - Done. Returned value was: {'lat': 49.842, 'lon': 24.0316, 'timezone': 'Europe/Kiev', 'timezone_offset': 7200, 'data': [{'dt': 1701302686, 'sunrise': 1701323889, 'sunset': 1701354419, 'temp': -7.35, 'feels_like': -13.2, 'pressure': 1013, 'humidity': 86, 'dew_point': -9.07, 'uvi': 0, 'clouds': 7, 'visibility': 10000, 'wind_speed': 3.87, 'wind_deg': 213, 'wind_gust': 11.44, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01n'}]}]}
+[2023-11-30T02:04:54.244+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=lviv_weather, task_id=extract_data, execution_date=20231130T000446, start_date=20231130T000453, end_date=20231130T000454
+[2023-11-30T02:04:54.286+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-30T02:04:54.311+0200] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

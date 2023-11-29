@@ -1,0 +1,48 @@
+[2023-11-30T02:02:31.158+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lviv_weather.inject_data manual__2023-11-30T00:02:19.432544+00:00 [queued]>
+[2023-11-30T02:02:31.167+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lviv_weather.inject_data manual__2023-11-30T00:02:19.432544+00:00 [queued]>
+[2023-11-30T02:02:31.167+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T02:02:31.179+0200] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): inject_data> on 2023-11-30 00:02:19.432544+00:00
+[2023-11-30T02:02:31.182+0200] {standard_task_runner.py:57} INFO - Started process 152801 to run task
+[2023-11-30T02:02:31.184+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'lviv_weather', 'inject_data', 'manual__2023-11-30T00:02:19.432544+00:00', '--job-id', '58', '--raw', '--subdir', 'DAGS_FOLDER/lviv_weather.py', '--cfg-path', '/tmp/tmpxllgynv_']
+[2023-11-30T02:02:31.186+0200] {standard_task_runner.py:85} INFO - Job 58: Subtask inject_data
+[2023-11-30T02:02:31.241+0200] {task_command.py:416} INFO - Running <TaskInstance: lviv_weather.inject_data manual__2023-11-30T00:02:19.432544+00:00 [running]> on host yurabd.
+[2023-11-30T02:02:31.523+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='lviv_weather' AIRFLOW_CTX_TASK_ID='inject_data' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T00:02:19.432544+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-30T00:02:19.432544+00:00'
+[2023-11-30T02:02:31.524+0200] {sql.py:274} INFO - Executing: 
+        INSERT INTO measures (timestamp, date, temp, humidity, clouds, wind_speed) VALUES
+        (1701302539,
+        "2023-11-30 00:02:19",
+        -7.35,
+        86,
+        7,
+        3.87);
+        
+[2023-11-30T02:02:31.536+0200] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-30T02:02:31.590+0200] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-30T02:02:31.599+0200] {sql.py:418} INFO - Running statement: 
+        INSERT INTO measures (timestamp, date, temp, humidity, clouds, wind_speed) VALUES
+        (1701302539,
+        "2023-11-30 00:02:19",
+        -7.35,
+        86,
+        7,
+        3.87);
+        , parameters: None
+[2023-11-30T02:02:31.600+0200] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedColumn: column "2023-11-30 00:02:19" does not exist
+LINE 4:         "2023-11-30 00:02:19",
+                ^
+
+[2023-11-30T02:02:31.630+0200] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=lviv_weather, task_id=inject_data, execution_date=20231130T000219, start_date=20231130T000231, end_date=20231130T000231
+[2023-11-30T02:02:31.640+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 58 for task inject_data (column "2023-11-30 00:02:19" does not exist
+LINE 4:         "2023-11-30 00:02:19",
+                ^
+; 152801)
+[2023-11-30T02:02:31.677+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-30T02:02:31.698+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

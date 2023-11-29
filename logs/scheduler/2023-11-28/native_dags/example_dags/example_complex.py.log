@@ -1,0 +1,21 @@
+[2023-11-28T03:10:03.590+0200] {processor.py:157} INFO - Started process (PID=27879) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-28T03:10:03.591+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-28T03:10:03.592+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:03.591+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-28T03:10:03.614+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-28T03:10:03.722+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:03.722+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:10:03.728+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:10:03.728+0200] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-28T03:10:03.750+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.162 seconds
+[2023-11-28T03:11:01.488+0200] {processor.py:157} INFO - Started process (PID=27935) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-28T03:11:01.493+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-28T03:11:01.494+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:01.494+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-28T03:11:01.537+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-28T03:11:01.571+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:01.571+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:01.582+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:01.582+0200] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-28T03:11:01.632+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.150 seconds
+[2023-11-28T03:11:55.901+0200] {processor.py:157} INFO - Started process (PID=27989) to work on /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-28T03:11:55.902+0200] {processor.py:829} INFO - Processing file /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-28T03:11:55.903+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:55.902+0200] {dagbag.py:536} INFO - Filling up the DagBag from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-28T03:11:55.929+0200] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-28T03:11:55.952+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:55.952+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-28T03:11:55.961+0200] {logging_mixin.py:154} INFO - [2023-11-28T03:11:55.961+0200] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-28T03:11:55.980+0200] {processor.py:179} INFO - Processing /mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.082 seconds

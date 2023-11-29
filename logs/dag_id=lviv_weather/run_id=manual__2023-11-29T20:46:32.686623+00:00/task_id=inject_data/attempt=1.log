@@ -1,0 +1,36 @@
+[2023-11-29T22:48:06.077+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lviv_weather.inject_data manual__2023-11-29T20:46:32.686623+00:00 [queued]>
+[2023-11-29T22:48:06.082+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lviv_weather.inject_data manual__2023-11-29T20:46:32.686623+00:00 [queued]>
+[2023-11-29T22:48:06.082+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-29T22:48:06.094+0200] {taskinstance.py:1382} INFO - Executing <Task(SqliteOperator): inject_data> on 2023-11-29 20:46:32.686623+00:00
+[2023-11-29T22:48:06.096+0200] {standard_task_runner.py:57} INFO - Started process 108846 to run task
+[2023-11-29T22:48:06.098+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'lviv_weather', 'inject_data', 'manual__2023-11-29T20:46:32.686623+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/lviv_weather.py', '--cfg-path', '/tmp/tmpgd3hjw86']
+[2023-11-29T22:48:06.099+0200] {standard_task_runner.py:85} INFO - Job 72: Subtask inject_data
+[2023-11-29T22:48:06.125+0200] {task_command.py:416} INFO - Running <TaskInstance: lviv_weather.inject_data manual__2023-11-29T20:46:32.686623+00:00 [running]> on host yurabd.
+[2023-11-29T22:48:06.189+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='lviv_weather' AIRFLOW_CTX_TASK_ID='inject_data' AIRFLOW_CTX_EXECUTION_DATE='2023-11-29T20:46:32.686623+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-29T20:46:32.686623+00:00'
+[2023-11-29T22:48:06.190+0200] {sql.py:274} INFO - Executing: 
+        INSERT INTO measures (timestamp, temp) VALUES
+        (1701290850,
+        "2023-11-29 20:47:30",
+        -7.93);
+        
+[2023-11-29T22:48:06.193+0200] {base.py:73} INFO - Using connection ID 'airflow_conn' for task execution.
+[2023-11-29T22:48:08.438+0200] {base.py:73} INFO - Using connection ID 'airflow_conn' for task execution.
+[2023-11-29T22:48:08.441+0200] {sql.py:418} INFO - Running statement: 
+        INSERT INTO measures (timestamp, temp) VALUES
+        (1701290850,
+        "2023-11-29 20:47:30",
+        -7.93);
+        , parameters: None
+[2023-11-29T22:48:08.444+0200] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+sqlite3.OperationalError: 3 values for 2 columns
+[2023-11-29T22:48:08.460+0200] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=lviv_weather, task_id=inject_data, execution_date=20231129T204632, start_date=20231129T204806, end_date=20231129T204808
+[2023-11-29T22:48:08.473+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 72 for task inject_data (3 values for 2 columns; 108846)
+[2023-11-29T22:48:08.483+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-29T22:48:08.490+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

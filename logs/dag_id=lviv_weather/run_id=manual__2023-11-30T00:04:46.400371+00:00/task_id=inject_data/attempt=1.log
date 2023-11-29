@@ -1,0 +1,50 @@
+[2023-11-30T02:04:58.404+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lviv_weather.inject_data manual__2023-11-30T00:04:46.400371+00:00 [queued]>
+[2023-11-30T02:04:58.411+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lviv_weather.inject_data manual__2023-11-30T00:04:46.400371+00:00 [queued]>
+[2023-11-30T02:04:58.412+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T02:04:58.424+0200] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): inject_data> on 2023-11-30 00:04:46.400371+00:00
+[2023-11-30T02:04:58.427+0200] {standard_task_runner.py:57} INFO - Started process 153411 to run task
+[2023-11-30T02:04:58.429+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'lviv_weather', 'inject_data', 'manual__2023-11-30T00:04:46.400371+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/lviv_weather.py', '--cfg-path', '/tmp/tmpypr59lp5']
+[2023-11-30T02:04:58.431+0200] {standard_task_runner.py:85} INFO - Job 63: Subtask inject_data
+[2023-11-30T02:04:58.488+0200] {task_command.py:416} INFO - Running <TaskInstance: lviv_weather.inject_data manual__2023-11-30T00:04:46.400371+00:00 [running]> on host yurabd.
+[2023-11-30T02:04:58.785+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='lviv_weather' AIRFLOW_CTX_TASK_ID='inject_data' AIRFLOW_CTX_EXECUTION_DATE='2023-11-30T00:04:46.400371+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-30T00:04:46.400371+00:00'
+[2023-11-30T02:04:58.786+0200] {sql.py:274} INFO - Executing: 
+        INSERT INTO measures (timestamp, date, temp, humidity, clouds, wind_speed) VALUES
+        (1701302686,
+        '2023-11-30 00:04:46',
+        -7.35,
+        86,
+        7,
+        3.87);
+        
+[2023-11-30T02:04:58.797+0200] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-30T02:04:58.856+0200] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-11-30T02:04:58.864+0200] {sql.py:418} INFO - Running statement: 
+        INSERT INTO measures (timestamp, date, temp, humidity, clouds, wind_speed) VALUES
+        (1701302686,
+        '2023-11-30 00:04:46',
+        -7.35,
+        86,
+        7,
+        3.87);
+        , parameters: None
+[2023-11-30T02:04:58.866+0200] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.DatatypeMismatch: column "timestamp" is of type timestamp without time zone but expression is of type integer
+LINE 3:         (1701302686,
+                 ^
+HINT:  You will need to rewrite or cast the expression.
+
+[2023-11-30T02:04:58.896+0200] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=lviv_weather, task_id=inject_data, execution_date=20231130T000446, start_date=20231130T000458, end_date=20231130T000458
+[2023-11-30T02:04:58.906+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 63 for task inject_data (column "timestamp" is of type timestamp without time zone but expression is of type integer
+LINE 3:         (1701302686,
+                 ^
+HINT:  You will need to rewrite or cast the expression.
+; 153411)
+[2023-11-30T02:04:58.923+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-30T02:04:58.942+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

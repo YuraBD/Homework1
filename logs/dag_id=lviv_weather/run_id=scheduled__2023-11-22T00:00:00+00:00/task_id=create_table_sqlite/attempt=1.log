@@ -1,0 +1,35 @@
+[2023-11-30T01:19:21.952+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lviv_weather.create_table_sqlite scheduled__2023-11-22T00:00:00+00:00 [queued]>
+[2023-11-30T01:19:21.977+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lviv_weather.create_table_sqlite scheduled__2023-11-22T00:00:00+00:00 [queued]>
+[2023-11-30T01:19:21.977+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-30T01:19:22.213+0200] {taskinstance.py:1382} INFO - Executing <Task(SqliteOperator): create_table_sqlite> on 2023-11-22 00:00:00+00:00
+[2023-11-30T01:19:22.219+0200] {standard_task_runner.py:57} INFO - Started process 142312 to run task
+[2023-11-30T01:19:22.237+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'lviv_weather', 'create_table_sqlite', 'scheduled__2023-11-22T00:00:00+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/lviv_weather.py', '--cfg-path', '/tmp/tmplhx5i1oy']
+[2023-11-30T01:19:22.244+0200] {standard_task_runner.py:85} INFO - Job 14: Subtask create_table_sqlite
+[2023-11-30T01:19:22.458+0200] {task_command.py:416} INFO - Running <TaskInstance: lviv_weather.create_table_sqlite scheduled__2023-11-22T00:00:00+00:00 [running]> on host yurabd.
+[2023-11-30T01:19:22.905+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='lviv_weather' AIRFLOW_CTX_TASK_ID='create_table_sqlite' AIRFLOW_CTX_EXECUTION_DATE='2023-11-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-22T00:00:00+00:00'
+[2023-11-30T01:19:22.906+0200] {sql.py:274} INFO - Executing: 
+        CREATE TABLE IF NOT EXISTS measures
+        (
+        timestamp TIMESTAMP,
+        date TEXT,
+        temp FLOAT
+        );
+[2023-11-30T01:19:22.959+0200] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 275, in execute
+    hook = self.get_db_hook()
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 186, in get_db_hook
+    return self._hook
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 148, in _hook
+    conn = BaseHook.get_connection(conn_id)
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/mnt/f/UCU/BatchProc/lab1/venv/lib/python3.10/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `airflow_conn` isn't defined
+[2023-11-30T01:19:22.986+0200] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=lviv_weather, task_id=create_table_sqlite, execution_date=20231122T000000, start_date=20231129T231921, end_date=20231129T231922
+[2023-11-30T01:19:23.005+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 14 for task create_table_sqlite (The conn_id `airflow_conn` isn't defined; 142312)
+[2023-11-30T01:19:23.025+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-30T01:19:23.075+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
